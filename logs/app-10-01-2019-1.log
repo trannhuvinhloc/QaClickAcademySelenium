@@ -1,0 +1,11 @@
+21:36:45.217 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Close browser
+21:42:57.894 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Browser is opened
+21:43:01.775 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Go to QA Click Academy
+21:43:02.535 [main] ERROR com.qaclick.FinalProject.LandingValidateText - Big text is not displayed correctly
+21:43:03.181 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Close browser
+22:34:09.251 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Browser is opened
+22:34:13.437 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Go to QA Click Academy
+22:34:14.302 [main] ERROR com.qaclick.FinalProject.LandingValidateText - Big text is not displayed correctly
+22:34:14.963 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Close browser
+11:14:27.804 [main] INFO  com.qaclick.FinalProject.LoginTest - Browser is opened
+11:14:38.071 [main] INFO  com.qaclick.FinalProject.LoginTest - Go to QAClick Academy website

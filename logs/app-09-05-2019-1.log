@@ -1,0 +1,12 @@
+11:42:41.021 [main] INFO  com.qaclick.FinalProject.LandingValidateMenu - Open browser
+11:42:57.499 [main] INFO  com.qaclick.FinalProject.LandingValidateMenu - Go to QA CLick Academy success
+11:42:58.254 [main] INFO  com.qaclick.FinalProject.LandingValidateMenu - Close browser
+11:44:42.364 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Browser is opened
+11:44:55.888 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Go to QA Click Academy
+11:44:57.194 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Close browser
+11:45:17.820 [main] INFO  com.qaclick.FinalProject.LoginTest - Browser is opened
+11:45:28.226 [main] INFO  com.qaclick.FinalProject.LoginTest - Go to QAClick Academy website
+11:45:28.226 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Login button
+11:45:36.258 [main] INFO  com.qaclick.FinalProject.LoginTest - Redirect to Log In page
+11:45:36.258 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input username
+11:45:36.424 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input password

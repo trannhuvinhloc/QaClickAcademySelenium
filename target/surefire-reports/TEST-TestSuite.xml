@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="50.124" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\FinalProject\target\test-classes;C:\Users\Admin\FinalProject\target\classes;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9791817083104772407\surefirebooter2969725715695333435.jar C:\Users\Admin\AppData\Local\Temp\surefire9791817083104772407 2019-10-02T11-55-34_235-jvmRun1 surefire14715368393404366214tmp surefire_016674796122187630382tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\FinalProject\target\test-classes;C:\Users\Admin\FinalProject\target\classes;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\FinalProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9791817083104772407\surefirebooter2969725715695333435.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="user.dir" value="C:\Users\Admin\FinalProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.4\bin;C:\apache-maven-3.6.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="feature" classname="CucumberOptions.RunCucumberTest" time="47.519">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search\-courses&quot;}&#10;  (Session info: chrome=77.0.3865.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-7UM9J9E&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 90c878e2941282e4a974146485b23835&#10;*** Element info: {Using=id, value=search-courses}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search\-courses"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7UM9J9E', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 90c878e2941282e4a974146485b23835
+*** Element info: {Using=id, value=search-courses}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search\-courses"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7UM9J9E', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 90c878e2941282e4a974146485b23835
+*** Element info: {Using=id, value=search-courses}
+</failure>
+    <system-out><![CDATA[Cucumber
+Feature: Login to QAClickAcademy
+
+  Scenario Outline: Login successfully                  &amp#27;[90m# FinalProject.feature:3&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mOpen Chrome browser&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGo to "http://www.qaclickacademy.com"&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGo to Login page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mInput username <user> and password <pass>&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClick on Login button&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mRedirect to Learning page and Verify Searchbox&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClose browser&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Login successfully                       &amp#27;[90m# FinalProject.feature:14&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen Chrome browser&amp#27;[0m                                &amp#27;[90m# StepDefinitions.open_chrome_browser()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to "&amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.qaclickacademy.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m                &amp#27;[90m# StepDefinitions.go_to_something(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to Login page&amp#27;[0m                                     &amp#27;[90m# StepDefinitions.go_to_login_page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mInput username &amp#27;[0m&amp#27;[32m&amp#27;[1mtest99@gmail.com&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m &amp#27;[90m# StepDefinitions.input_username_and_password(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                                &amp#27;[90m# StepDefinitions.click_on_login_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mRedirect to Learning page and Verify Searchbox&amp#27;[0m      &amp#27;[90m# StepDefinitions.redirect_to_learning_page_and_verify_searchbox()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClose browser&amp#27;[0m                                        &amp#27;[90m# StepDefinitions.close_browser()&amp#27;[0m
+
+  Scenario Outline: Login successfully                      &amp#27;[90m# FinalProject.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen Chrome browser&amp#27;[0m                               &amp#27;[90m# StepDefinitions.open_chrome_browser()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to "&amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.qaclickacademy.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m               &amp#27;[90m# StepDefinitions.go_to_something(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to Login page&amp#27;[0m                                    &amp#27;[90m# StepDefinitions.go_to_login_page()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mInput username &amp#27;[0m&amp#27;[32m&amp#27;[1mtst99@gmail.com&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m983456&amp#27;[0m &amp#27;[90m# StepDefinitions.input_username_and_password(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Login button&amp#27;[0m                               &amp#27;[90m# StepDefinitions.click_on_login_button()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mRedirect to Learning page and Verify Searchbox&amp#27;[0m     &amp#27;[90m# StepDefinitions.redirect_to_learning_page_and_verify_searchbox()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search\-courses"}
+        (Session info: chrome=77.0.3865.90)
+      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+      System info: host: 'DESKTOP-7UM9J9E', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 90c878e2941282e4a974146485b23835
+      *** Element info: {Using=id, value=search-courses}
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+      	at org.openqa.selenium.By$ById.findElement(By.java:188)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+      	at PageObject.LearningPage.getSearchBox(LearningPage.java:18)
+      	at StepDefinition.StepDefinitions.redirect_to_learning_page_and_verify_searchbox(StepDefinitions.java:68)
+      	at ?.Then Redirect to Learning page and Verify Searchbox(FinalProject.feature:9)
+      &amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mClose browser&amp#27;[0m                                       &amp#27;[90m# StepDefinitions.close_browser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 24071
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1569992140.944][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
+[1569992142.958][WARNING]: Timed out connecting to Chrome, retrying...
+Oct 02, 2019 11:55:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 35246
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1569992164.795][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
+[1569992166.805][WARNING]: Timed out connecting to Chrome, retrying...
+Oct 02, 2019 11:56:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+com\qaclick\FinalProject\BaseClass.class
+PageObject\LearningPage.class
+PageObject\LoginPage.class
+PageObject\LandingPage.class
+resources\ExtentManager.class

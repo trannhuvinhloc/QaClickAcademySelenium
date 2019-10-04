@@ -1,0 +1,11 @@
+11:14:38.080 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Login button
+11:14:44.641 [main] INFO  com.qaclick.FinalProject.LoginTest - Redirect to Log In page
+11:14:44.642 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input username
+11:14:44.783 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input password
+11:14:44.870 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Log in button
+11:14:50.907 [main] INFO  com.qaclick.FinalProject.LoginTest - Go to QAClick Academy website
+11:14:50.907 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Login button
+11:14:53.591 [main] INFO  com.qaclick.FinalProject.LoginTest - Redirect to Log In page
+11:14:53.591 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input username
+11:14:53.736 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input password
+11:14:53.816 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Log in button

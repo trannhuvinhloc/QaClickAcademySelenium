@@ -1,0 +1,12 @@
+16:16:56.266 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Browser is opened
+16:16:59.781 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Go to QA Click Academy
+16:16:59.847 [main] ERROR com.qaclick.FinalProject.LandingValidateText - Big test is not displayed correctly
+16:17:00.548 [main] INFO  com.qaclick.FinalProject.LandingValidateText - Close browser
+16:17:14.940 [main] INFO  com.qaclick.FinalProject.LoginTest - Browser is opened
+16:17:20.451 [main] INFO  com.qaclick.FinalProject.LoginTest - Go to QAClick Academy website
+16:17:20.451 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Login button
+16:17:27.063 [main] INFO  com.qaclick.FinalProject.LoginTest - Redirect to Log In page
+16:17:27.065 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input username
+16:17:27.233 [main] DEBUG com.qaclick.FinalProject.LoginTest - Input password
+16:17:27.322 [main] DEBUG com.qaclick.FinalProject.LoginTest - Click on Log in button
+16:17:30.299 [main] INFO  com.qaclick.FinalProject.LoginTest - Go to QAClick Academy website
