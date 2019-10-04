@@ -22,6 +22,8 @@ public class StepDefinitions extends BaseClass {
 	public void open_chrome_browser() throws Throwable {
 		openBrowser();
 		logger.info("Open browser");
+		
+		System.out.println("This for new branch development");
 	}
 
 	@Given("^Go to \"([^\"]*)\"$")
