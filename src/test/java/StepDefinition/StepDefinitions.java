@@ -28,6 +28,13 @@ public class StepDefinitions extends BaseClass {
 	public void go_to_something(String strArg1) throws Throwable {
 		driver.get(strArg1);
 		logger.info("Go to QA CLick Academy success");
+		
+		System.out.println("Call me by your name");
+		
+		
+		
+		System.out.println("Call me maybe");
+		
 	}
 
 	@Given("^Go to Login page$")
